@@ -10,7 +10,7 @@ section of the `composer.json` file in your install.
 ```json
 "gardnerfresh_base": {
     "type": "git",
-    "url": "https://github.com/kegdev/theme-gardnerfresh_base"
+    "url": "https://github.com/kegdev/theme-gardnerfresh-base"
 }
 ```
 3. Run `composer upgrade`.
