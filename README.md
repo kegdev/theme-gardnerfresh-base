@@ -43,4 +43,8 @@ As of this release, you will need to manually add two static blocks needed for t
 1. `homepage-featured` - This occupies the hero section - currently a static span within a div. See the [source](https://github.com/kegdev/theme-gardnerfresh-base/blob/04025914155e2046b9fd723f516c9105673c5c0d/web/css/source/homepage.less#L82) for information on structure and font usage.
 2. `homepage-products` - This renders products on the homepage. This utilizes the Catalog product List widget targeted to a specific category and the output is customizeable. See a [tutorial](https://www.simicart.com/blog/magento-featured-products/) on the process for more info.
 
+## To Do
+1. Mobile view has not been addressed in `_extend` imports. At all.
+2. Add setup scripts for static blocks.
+
 Enjoy this work in progress. :)
