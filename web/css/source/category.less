@@ -1,0 +1,81 @@
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	background-color: @white;
+	.page-subwrapper {
+		background: url('@{baseDir}images/subwrapper_bg.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+	.panel.wrapper {
+		background-color: fade(@gf_red, 75%);
+		border-bottom: 1px solid @gf_red;
+		div {
+			color: #fff;
+			a {
+				color: @gf_yellow;
+				&:active, &:visited {
+					color: @gf_yellow;
+				}
+			}
+			.alink {
+				color: @gf_yellow;
+				&:active, &:visited {
+					color: @gf_yellow;
+				}
+			}
+		}
+	}
+	.header.content {
+		min-height: 150px;
+		padding: 0;
+		.logo {
+			margin: 0;
+			height: 150px;
+			position: relative;
+			bottom: 0;
+			img {
+				position: absolute;
+				bottom: 0;
+				max-width: none;
+			}
+		}
+		.block-search {
+			position: absolute;
+			bottom: 10px;
+			right: 50px;
+			padding: 0;
+			.control {
+				padding-bottom: 0;
+				.advanced {
+					display: none;
+				}
+			}
+		}
+		.minicart-wrapper {
+			position: absolute;
+			bottom: 10px;
+			right: 0;
+			margin: 0;
+			.action {
+				&.showcart {
+					&:before {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.nav-sections {
+		margin-bottom: 0;
+		background-color: fade(@gf_red, 75%);
+		border-top: 1px solid @gf_red;
+		border-bottom: 1px solid @gf_red;
+	}
+	.navigation {
+		background: none;
+		.level0 {
+			>.level-top {
+				color: #fff;
+			}
+		}
+	}
+}

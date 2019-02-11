@@ -1,0 +1,29 @@
+// mixins
+@gf_red: 						rgb(124, 21, 16);
+@gf_yellow:						rgb(249, 183, 62);
+@white:							rgb(255, 255, 255);
+
+//defaults
+@link__color: 					rgb(124, 21, 16);
+@link__visited__color:			rgb(124, 21, 16);
+@link__active__color:			rgb(124, 21, 16);
+@link__hover__color:			rgb(124, 21, 16);
+
+// button(s)
+@button-primary__color: @color-white;
+@button-primary__hover__color: @color-white;
+@button-primary__background: @gf_red;
+@button-primary__hover__background: @gf_red;
+@button-primary__border: 1px solid @gf_yellow;
+@button-primary__hover__border: 1px solid @gf_yellow;
+
+// fonts
+.lib-font-face(
+	@family-name:'Josephin Sans',
+	@font-path:'@{baseDir}fonts/josefin-sans-v12-latin-regular'
+);
+
+.lib-font-face(
+	@family-name:'Amatic SC',
+	@font-path:'@{baseDir}fonts/amatic-sc-v11-latin-regular'
+);

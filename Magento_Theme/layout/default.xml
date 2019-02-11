@@ -1,0 +1,18 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceBlock name="logo">
+			<arguments>
+				<argument name="logo_file" xsi:type="string">images/logo.png</argument>
+				<argument name="logo_img_width" xsi:type="number">171</argument>
+				<argument name="logo_img_height" xsi:type="number">99</argument>
+				<argument name="logo_alt" xsi:type="string">GardnerFresh.com</argument>
+			</arguments>
+		</referenceBlock>
+		<container name="page.wrapper" as="page_wrapper" htmlTag="div" htmlClass="page-wrapper">
+			<container name="page.subwrapper" as="page_subwrapper" htmlTag="div" htmlClass="page-subwrapper" before="main.content">
+				<container name="header.container" as="header_container" label="Page Header Container" htmlTag="header" htmlClass="page-header" />
+				<container name="page.top" as="page_top" label="After Page Header" after="header.container"/>
+			</container>
+		</container>
+	</body>
+</page>
